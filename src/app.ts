@@ -6,7 +6,8 @@ import * as dotenv from 'dotenv'
 dotenv.config({ path: `${__dirname}/../.env` })
 // Dependencies
 import { Context } from 'grammy'
-import { Message } from 'grammy/out/platform.node'
+
+import { Message } from '@grammyjs/types'
 import { run } from '@grammyjs/runner'
 import bot from '@/helpers/bot'
 
